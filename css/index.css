@@ -164,6 +164,7 @@ h3 {
 header {
   width: 98%;
   margin: 0 auto;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 header div {
@@ -213,4 +214,55 @@ header h1 {
 .description p {
   text-align: center;
   margin-bottom: 20px;
+}
+.border2 {
+  margin: 0 auto;
+  height: 4px;
+  background-color: #6FA0D0;
+}
+.features {
+  width: 98%;
+  margin: 0 auto;
+}
+.features h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+.features img {
+  width: 40%;
+}
+.features div div {
+  width: 40%;
+}
+.features .feat1,
+.features .feat2,
+.features .feat3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+  border: 1px solid #6FA0D0;
+  padding: 10px 0;
+}
+.features .feat2 {
+  flex-direction: row-reverse;
+}
+.features .para1 {
+  margin-bottom: 20px;
+}
+.features ul {
+  list-style-type: square;
+  margin-left: 20px;
+  width: 90%;
+}
+footer {
+  margin-top: 20px;
+  background-color: #6FA0D0;
+  text-align: center;
+  padding: 10px 0;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 10px;
 }
