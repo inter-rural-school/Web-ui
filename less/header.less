@@ -9,6 +9,12 @@ header {
         justify-content: space-between;
         margin-top:10px;
         margin-bottom:20px;
+        align-items: center;
+
+        @media @phone {
+            flex-direction: column;
+            align-items: center;
+        }
     }
 
     nav {
@@ -16,6 +22,11 @@ header {
         display: flex;
         justify-content: space-between;
         align-items: center;
+
+        @media (max-width: 360px) {
+            width:100%;
+        }
+
     }
 
     img {
@@ -36,6 +47,10 @@ header {
         &:hover {
             background-color:  white;
             color: black;
+        }
+
+        @media (max-width: 350px) {
+            width:150px;
         }
     }
 

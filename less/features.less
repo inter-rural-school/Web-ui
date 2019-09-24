@@ -10,11 +10,15 @@
 
     img {
         width:40%;
+
+        @media @phone {
+            width:75%;
+        }
     }
 
     div {
         div {
-            width:40%;
+            width:75%;
         }
     }
 
@@ -26,6 +30,10 @@
         margin-top:30px;
         border:1px solid @general-color;
         padding:10px 0;
+
+        @media @phone {
+            flex-direction: column-reverse;
+        }
         
 
 
@@ -33,6 +41,10 @@
 
     .feat2 {
         flex-direction: row-reverse;
+
+        @media @phone {
+            flex-direction: column-reverse;
+        }
     }
 
     
