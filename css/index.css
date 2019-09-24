@@ -128,7 +128,7 @@ table {
 }
 * {
   box-sizing: border-box;
-  max-width: 100%;
+  width: 100%;
 }
 html {
   font-size: 62.5%;
@@ -136,14 +136,13 @@ html {
 html,
 body {
   font-family: 'Open Sans', sans-serif;
-  color: 6FA 0D 0;
+  color: black;
 }
 body {
-  max-width: 800px;
-  width: 100%;
   margin: 0 auto;
   font-size: 1.6rem;
   line-height: 1;
+  max-width: 800px;
 }
 h1,
 h2,
@@ -151,7 +150,7 @@ h3,
 h4,
 h5 {
   font-family: 'Muli', sans-serif;
-  color: 6FA 0D 0;
+  color: black;
 }
 h1 {
   font-size: 4rem;
@@ -162,14 +161,56 @@ h2 {
 h3 {
   font-size: 2.4rem;
 }
+header {
+  width: 98%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+header div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+header nav {
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 header img {
   width: 80px;
 }
 header a {
-  display: inline-block;
-  width: 150px;
+  text-decoration: none;
+  display: block;
+  width: 160px;
+  padding: 10px 0;
+  text-align: center;
+  font-weight: bold;
+  background-color: #6FA0D0;
+  color: white;
+  border-radius: 4px;
+}
+header a:hover {
+  background-color: white;
+  color: black;
+}
+header h1 {
   text-align: center;
 }
-header * {
-  border: 1px solid black;
+.border1 {
+  margin: 0 auto;
+  height: 4px;
+  background-color: #6FA0D0;
+}
+.description {
+  max-width: 800px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.description p {
+  text-align: center;
+  margin-bottom: 20px;
 }
