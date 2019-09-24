@@ -254,7 +254,12 @@ header h1 {
   }
 }
 .features div div {
-  width: 75%;
+  width: 40%;
+}
+@media (max-width: 500px) {
+  .features div div {
+    width: 75%;
+  }
 }
 .features .feat1,
 .features .feat2,
