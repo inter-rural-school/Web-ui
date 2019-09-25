@@ -6,6 +6,18 @@
     margin-bottom:20px;
 }
 
+.border2 {
+    margin:0 auto;
+    height:4px;
+    background-color:@general-color;
+}
+
+
+h2 {
+    text-align:center;
+    margin-top:20px;
+}
+
 
 .team {
     margin-top:20px;
@@ -27,22 +39,47 @@
         margin-left:3%;
         width:97%;
         margin-bottom: 5px;
+        
     }
 
     .memberInfo {
-        margin-left:3%;
-        width:97%;
+        margin-left:5%;
+        width:95%;
+        // width:290px;
+        // margin:0 auto;
         display: flex;
-        align-items: center;
+
+        @media (max-width: 340px) {
+            margin-left:3%;
+        }
+
+        // border:1px solid black;
     }
 
     img {
         width:160px;
     }
 
-    p {
-        margin-left:20px;
+    .speechBubble {
+        position:relative;
+        left:5px;
+        text-align: center;
+        width:120px;
+        height:60px;
+        
+        img {
+            width:110px;
+            height:50px;
+        }
+
+        p {
+            position: absolute;
+            top:12px;
+        }
+                
+        
     }
+    
     
     .space {
         height:20px;
@@ -52,6 +89,7 @@
 // * {
 //     border:1px solid black;
 // }
+
 
 
 }
