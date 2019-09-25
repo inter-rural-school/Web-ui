@@ -6,11 +6,59 @@ footer {
     width:100%;
     
     
-    a {
-        color:white;
-        text-decoration: none;
-        font-size:10px;
+    .credits {
+        a {
+            color:white;
+            text-decoration: none;
+            font-size:10px;
+        }
     }
     
+    .line1 {
+        width:98%;
+        margin:0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        // justify-content: space-between;
+        margin-bottom:10px;
+        text-align: center;
+
+        p {
+            width:270px;
+            margin-bottom:10px;
+            color:white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+
+            @media @phone {
+                flex-wrap: wrap;
+            }
+
+            a {
+                color:white;
+                text-decoration: none;
+
+                &:hover {
+                    // font-weight:bold;
+                    text-decoration: underline;
+                }
+
+
+            }
+        }
+
+    }
+    
+
+    // * {
+    //     border:1px solid black;
+    // }
+    
+    
+
     
 }
