@@ -143,6 +143,7 @@ body {
   font-size: 1.6rem;
   line-height: 1.4;
   max-width: 800px;
+  background-color: #e8f4f8;
 }
 h1,
 h2,
@@ -231,6 +232,9 @@ h2 {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+.contactInfo {
+  min-height: 700px;
+}
 .contactInfo img {
   width: 70px;
 }
@@ -262,7 +266,7 @@ footer {
 footer .credits a {
   color: white;
   text-decoration: none;
-  font-size: 10px;
+  font-size: 1rem;
 }
 footer .line1 {
   width: 98%;
@@ -293,4 +297,8 @@ footer .line1 nav a {
 }
 footer .line1 nav a:hover {
   text-decoration: underline;
+}
+footer .iconsCredit {
+  color: white;
+  font-size: 1rem;
 }

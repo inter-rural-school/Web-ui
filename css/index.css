@@ -143,6 +143,7 @@ body {
   font-size: 1.6rem;
   line-height: 1.4;
   max-width: 800px;
+  background-color: #e8f4f8;
 }
 h1,
 h2,
@@ -309,7 +310,7 @@ footer {
 footer .credits a {
   color: white;
   text-decoration: none;
-  font-size: 10px;
+  font-size: 1rem;
 }
 footer .line1 {
   width: 98%;
@@ -329,10 +330,19 @@ footer .line1 nav {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 500px) {
+  footer .line1 nav {
+    flex-wrap: wrap;
+  }
+}
 footer .line1 nav a {
   color: white;
   text-decoration: none;
 }
 footer .line1 nav a:hover {
   text-decoration: underline;
+}
+footer .iconsCredit {
+  color: white;
+  font-size: 1rem;
 }
