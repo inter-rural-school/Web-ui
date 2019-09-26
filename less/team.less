@@ -49,23 +49,46 @@ h2 {
         // margin:0 auto;
         display: flex;
 
+        @media @phone {
+            flex-direction: column;
+        }
+
         @media (max-width: 340px) {
             margin-left:3%;
         }
 
+
         // border:1px solid black;
+        // * {
+        //     border:1px solid black;
+        // }
+        
     }
 
-    img {
+    .photo {
         width:160px;
+        height:160px;
         border-radius: 4px;
+    }
+
+    .iconSVG {
+        width:40px;
+
+        @media @phone {
+            margin-top:10px;
+        }
+    }
+
+    .photoWithBubble {
+        display:flex;
+        width:auto;
     }
 
     .speechBubble {
         position:relative;
         left:5px;
         text-align: center;
-        width:120px;
+        width:115px;
         height:60px;
         
         img {
@@ -81,6 +104,35 @@ h2 {
         
     }
     
+    .bioInfo {
+        margin-left:10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        @media @phone {
+            margin-left:0px;
+        }
+
+
+
+        .iconGroup {
+            width:120px;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom:10px;
+        }
+
+
+        p {
+            width:98%;
+            margin:0 auto;
+        }
+
+
+
+    }
+
     
     .space {
         height:20px;
